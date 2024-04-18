@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://ceg17eyehxdir"]
+[gd_scene load_steps=20 format=3 uid="uid://ceg17eyehxdir"]
 
 [ext_resource type="Texture2D" uid="uid://cwgnycma6qqbx" path="res://assets/textures/roads/cobblestone/cobblestone_floor_08_diff_2k.jpg" id="1_7mm4m"]
 [ext_resource type="PackedScene" uid="uid://buoa4rfr48kmo" path="res://characters/player/player.tscn" id="1_gyeyk"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dl15j5ugxwd6b" path="res://characters/npcs/emperors/qianlongemperor.tscn" id="7_gwg1r"]
 [ext_resource type="PackedScene" uid="uid://culvo73ud3x6j" path="res://assets/models/trees/willow.glb" id="8_s2fmk"]
 [ext_resource type="PackedScene" uid="uid://bkq5l6o7clkjp" path="res://characters/generic_npc.tscn" id="9_s4nyb"]
+[ext_resource type="PackedScene" uid="uid://1136lmo0dgea" path="res://assets/models/vase/ass4.glb" id="10_xllgt"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_68tw1"]
 albedo_texture = ExtResource("1_7mm4m")
@@ -138,5 +139,8 @@ transform = Transform3D(0.409923, 0, 0.91212, 0, 1, 0, -0.91212, 0, 0.409923, 1.
 
 [node name="Node3D" parent="." instance=ExtResource("9_s4nyb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 5.32685)
+
+[node name="ass4" parent="." instance=ExtResource("10_xllgt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44485, 0.484147, 5.90555)
 
 [editable path="East Building/SceneSwitcher"]
