@@ -141,6 +141,6 @@ transform = Transform3D(0.409923, 0, 0.91212, 0, 1, 0, -0.91212, 0, 0.409923, 1.
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 5.32685)
 
 [node name="ass4" parent="." instance=ExtResource("10_xllgt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44485, 0.484147, 5.90555)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.533, 0.484147, 5.90555)
 
 [editable path="East Building/SceneSwitcher"]

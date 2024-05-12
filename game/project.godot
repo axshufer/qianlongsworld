@@ -24,12 +24,14 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"chenhongshu": "res://characters/npcs/poetryfans/chenhongshu.dch",
 "dufufan": "res://characters/npcs/poetryfans/dufufan.dch",
 "qianlong": "res://dialogue/qianlong.dch"
 }
 directories/dtl_directory={
 "dufufanIntro": "res://assets/textures/portraits/dufufanIntro.dtl",
-"qianlongIntro": "res://dialogue/qianlongIntro.dtl"
+"qianlongIntro": "res://dialogue/qianlongIntro.dtl",
+"timelinechenhonshu": "res://characters/npcs/poetryfans/timelinechenhonshu.dtl"
 }
 layout/style_list=["res://dialogue/style.tres"]
 layout/default_style="res://dialogue/style.tres"
